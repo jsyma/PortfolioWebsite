@@ -1,0 +1,60 @@
+:root {
+  --primary-font: 'Arvo', serif;
+  --secondary-font: 'Lato', sans-serif;
+  --primary-colour: rgb(103, 125, 223);
+  --secondary-colour: rgb(22, 40, 121);
+  --tertiary-colour: rgb(63, 89, 206);
+  --accent-colour: rgb(0, 140, 255);
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  background-image: 
+    linear-gradient(
+      to top, 
+      rgba(27, 20, 41, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 50%, 
+      rgba(20, 15, 35, 0.6) 100%
+    ),
+    url('src/assets/CloudBg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: clamp(24px, 5vw, 48px);
+    line-height: 1.5;
+  padding: 30px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+}
+
+p {
+  font-size: clamp(14px, 2vw, 24px);
+  line-height: 1.3;
+  padding-left: 30px;
+  font-family: var(--secondary-font);
+}
+
+/* Animations */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes showLeftToRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

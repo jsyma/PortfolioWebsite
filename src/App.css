@@ -1,0 +1,45 @@
+/* Navbar */ 
+
+.navbar-container {
+  padding: 30px;
+}
+
+.custom-navbar .navbar-brand, 
+.custom-navbar .nav-link {
+  color: white;
+  font-family: var(--primary-font);
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  margin-left: auto;
+  gap: 10px;
+  text-align: center;
+}
+
+/* Homepage */
+
+.horizontal-line-top {
+  width:0;
+  height: 2px;
+  background-color: var(--secondary-colour);
+  margin: 20px 0;
+  animation: showLeftToRight 1s  ease-in forwards;
+}
+
+.horizontal-line-bottom {
+  width:0;
+  height: 2px;
+  background-color: var(--secondary-colour);
+  margin: 20px 0;
+  animation: showLeftToRight 0.75s  ease-in forwards;
+  animation-delay: 3s;
+
+}
+
+.typewriter p {
+  overflow: hidden; 
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 1.5s steps(40, end), step-end forwards;
+}
