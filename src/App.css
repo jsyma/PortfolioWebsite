@@ -84,6 +84,7 @@
   flex-direction: column;
   height: 100%;
   border: 5px ridge var(--built-accent);
+  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px); 
 }
 
@@ -92,6 +93,7 @@
   flex-direction: column;
   height: 100%;
   border: 5px ridge var(--building-accent);  
+  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px); 
 }
 
@@ -133,4 +135,32 @@
 
 .view-button:hover {
   transform: scale(1.1);
+}
+
+/* Experience Page */
+
+.experience-card {
+  display: flex;
+  border: 5px ridge var(--work-accent);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px); 
+  color: black;
+}
+
+.experience-card-content h1 {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+}
+
+.experience-card-content p {
+  margin: 5px;
+  text-align: center;
+}
+
+.experience-card-content ul {
+  font-size: 17px;
+  margin: 10px;
+  padding-bottom: 20px;
 }

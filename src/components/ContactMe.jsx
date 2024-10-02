@@ -6,6 +6,7 @@ const ContactMe = () => {
   return (
     <div>
         <Navbar />
+        <h1 className="my-3 d-flex align-items-center justify-content-center">Contact Me</h1>
 
         <Footer />
     </div>

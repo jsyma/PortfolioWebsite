@@ -1,0 +1,47 @@
+{
+    "experience": [
+        {
+            "image": "/experience/ECCC.jpg", 
+            "role": "Software Developer Intern", 
+            "company": "Environment and Climate Change Canada", 
+            "date": "May 2023 - August 2024 | Toronto, ON",
+            "description": [
+                "Collaborated with the Data Management System team in the development and maintenance of over 40 internal weather data components using Java",
+                "Designed, developed and tested a new JSON file handler configuration to translate complex meteorological data into an accessible format",
+                "Led the development of two new decoders during the migration to the OMNES framework"
+            ] 
+        },
+        {
+            "image": "/experience/TMU.jpg", 
+            "role": "Computer Programmer", 
+            "company": "Toronto Metropolitan University",
+            "date": "October 2022 - April 2023 | Toronto, ON",
+            "description": [
+                "Contributed to software development in support of Professor McArthur's Smart Building Research Group activities",
+                "Developed a Python framework for generating synthetic time-series data",
+                "Implemented functionalities for linear relationships, random noise, and cyclic patterns, utilizing configuration files to customize data parameters for enhanced simulation and testing"
+            ]         
+        },
+        {
+            "image": "/experience/Snapsmile.jpg", 
+            "role": "Product Design Intern", 
+            "company": "Snapsmile",
+            "date": "June 2022 - August 2022 | Toronto, ON",
+            "description": [
+                "Assist in feature buildouts and app screen design using Figma",
+                "Perform ground-level research targeting user oral health habits and dentist-patient interactions",
+                "Work on user product mapping ideation and execution using the quantitative data acquired from research"
+            ]         
+        },
+        {
+            "image": "/experience/TD.jpg", 
+            "role": "Customer Experience Associate", 
+            "company": "TD Bank",
+            "date": "November 2020 - September 2022 | Markham, ON",
+            "description": [
+                "Communicate with over 70 customers daily, assisting with transactions and addressing their banking needs",
+                "Offer personalized advice on banking products, including loans, lines of credit, and mortgages, contributing to increased product sales and improved customer satisfaction."
+            ]         
+        }
+    ]
+}

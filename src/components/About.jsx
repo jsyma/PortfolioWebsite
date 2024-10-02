@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
+      <h1 className="my-3 d-flex align-items-center justify-content-center">About Me</h1>
 
       <Footer />
     </div>
