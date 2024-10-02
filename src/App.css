@@ -1,7 +1,13 @@
-/* Navbar */ 
+/* Navbar Component*/ 
+
+.custom-navbar {
+  background-color: rgba(0, 12, 175, 0.1);
+  box-shadow: 0px 2px 100px rgba(220, 243, 255, 0.7);
+  backdrop-filter: blur(20px); 
+}
 
 .navbar-container {
-  padding: 30px;
+  padding: 25px;
 }
 
 .custom-navbar .navbar-brand, 
@@ -14,7 +20,6 @@
 .navbar-links {
   margin-left: auto;
   gap: 10px;
-  text-align: center;
 }
 
 /* Homepage */
@@ -42,4 +47,90 @@
   white-space: nowrap;
   letter-spacing: 0.15em;
   animation: typing 1.5s steps(40, end), step-end forwards;
+}
+
+.github-calendar {
+  opacity: 0;
+  animation: appearOnPage 1s forwards;
+  animation-delay: 2s;
+}
+
+.github-calendar.loaded {
+  opacity: 1;
+  animation: none;
+}
+
+/* Footer Component*/
+
+.footer {
+  background-color: rgba(0, 12, 175, 0.1);
+  box-shadow: 0px -2px 100px rgba(220, 243, 255, 0.7);
+  backdrop-filter: blur(20px); 
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-text p { 
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Projects Page */
+
+.project-card-built {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 5px ridge var(--built-accent);
+  backdrop-filter: blur(20px); 
+}
+
+.project-card-building {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 5px ridge var(--building-accent);  
+  backdrop-filter: blur(20px); 
+}
+
+.project-card-built img,
+.project-card-building img {
+  height: 100%;
+  width: 100%;  
+}
+
+.project-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card-content h1 {
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card-content p {
+  font-size: 18px;
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.view-button {
+  margin-bottom: 20px;
+  color: white;
+  background-color: var(--built-accent);
+  font-family: var(--secondary-font);
+  border-radius: 15px;
+  border: none;
+  padding: 5px 20px;
+  transition: transform 0.3s ease;
+}
+
+.view-button:hover {
+  transform: scale(1.1);
 }

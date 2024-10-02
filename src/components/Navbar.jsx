@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Navbar as BootstrapNavbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -12,9 +11,9 @@ const Navbar = () => {
         <BootstrapNavbar.Collapse>
           <Nav className="navbar-links">
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#getintouch">Get In Touch</Nav.Link>
+            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
+            <Nav.Link as={Link} to="/contactme">Get In Touch</Nav.Link>
           </Nav>
         </BootstrapNavbar.Collapse>
       </Container>

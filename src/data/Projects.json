@@ -1,0 +1,39 @@
+{
+    "projects": [
+        {
+            "image": "/projects/LifesCanvas.jpg", 
+            "title": "Lifes Canvas", 
+            "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, Javascript, CSS, Node.js", 
+            "url": "https://lifes-canvas.vercel.app/",
+            "builtStatus": true
+        },
+        {
+            "image": "/projects/Bookstore.jpg", 
+            "title": "Bookstore App", 
+            "description": "A book store application that allows customers to purchase books from a catalog and owners to add/remove books and adjust prices | Java, Java FXML", 
+            "url": "https://github.com/jsyma/BookStoreApp",
+            "builtStatus": true
+        },
+        {
+            "image": "/projects/ArcadeLLM.jpg", 
+            "title": "LLM Machine Coded Games", 
+            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, with user input collected via a streamlined UI | Java, ...", 
+            "stage": "In Development Stage",
+            "builtStatus": false
+        },
+        {
+            "image": "/projects/OnlineMovieStore.jpg", 
+            "title": "Online Movie Store", 
+            "description": "Designed and Developed a Online Movie Database System with a GUI where users can buy, view, sort and review movies | Python, SQL, Bash", 
+            "url": "https://github.com/jsyma/OnlineMovieStore-DBMS",
+            "builtStatus": true
+        },
+        {
+            "image": "/projects/ArtWebsite.jpg", 
+            "title": "Art Showcasing Website", 
+            "description": "Developed a personal art portfolio website showcasing my passion for photography, art and design | React, Javascript, CSS, Node.js, React-MDL", 
+            "url": "https://jsyma.github.io/art/",
+            "builtStatus": true
+        }
+    ]
+}
