@@ -12,11 +12,11 @@ const Home = () => {
 
   const lines = [
     { text: "I'm a 5th year software engineering student", duration: 1000 },
-    { text: "seeking new graduate opportunities", duration: 500 },
+    { text: "seeking new graduate opportunities.", duration: 500 },
     { text: " ", duration: 0 },
     { text: "I am passionate about crafting innovative", duration: 500 },
     { text: "solutions to real-world problems and I love", duration: 500 },
-    { text: "learning about everything related to software", duration: 500 }
+    { text: "learning about everything related to software.", duration: 500 }
   ];
 
   const selectLastHalfYear = contributions => {

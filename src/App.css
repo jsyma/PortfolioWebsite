@@ -84,6 +84,7 @@
   flex-direction: column;
   height: 100%;
   border: 5px ridge var(--built-accent);
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px); 
 }
@@ -93,6 +94,7 @@
   flex-direction: column;
   height: 100%;
   border: 5px ridge var(--building-accent);  
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px); 
 }
@@ -142,9 +144,9 @@
 .experience-card {
   display: flex;
   border: 5px ridge var(--work-accent);
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px); 
-  color: black;
 }
 
 .experience-card-content h1 {
@@ -163,4 +165,62 @@
   font-size: 17px;
   margin: 10px;
   padding-bottom: 20px;
+}
+
+/* About Me Page */
+
+.about-me-container h1 {
+  font-size: clamp(24px, 2vw, 40px);
+  padding: 10px;
+  font-weight: normal;
+}
+
+.about-me-container p{
+  font-size: clamp(16px, 2vw, 22px);
+  margin: 20px 10px;
+}
+
+.about-me-intro,
+.about-me-skills,
+.about-me-interests {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  padding: 30px;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+.about-me-intro img{
+  width: auto;
+  max-height: 400px;
+  border-radius: 80px;
+  border: 10px double rgb(204, 124, 33);
+}
+
+@media (max-width: 768px) {
+  .about-me-intro img{
+    max-height: 300px;
+  }
+}
+
+.tech-icons {
+  font-size: 6em;
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid var(--primary-colour);
+  border-radius: 5px;
+}
+
+.about-me-interests img {
+  border-radius: 10px;
+  border: 3px solid var(--secondary-colour);
+}
+
+.about-me-interests ul {
+  font-family: var(--primary-font);
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+.about-me-interests li {
+  margin: 5px;
 }

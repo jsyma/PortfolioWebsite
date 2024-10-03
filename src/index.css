@@ -11,6 +11,7 @@
 body {
   min-height: 100vh;
   font-family: var(--primary-font);
+  color: black;
   background-image: 
     linear-gradient(
       to top, 
