@@ -4,7 +4,12 @@ import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import headShot from '../assets/Jma.jpg';
 import worldMap from '../assets/WorldMap.png';
-import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5 } from "react-icons/fa6";
+import personCoding from '../assets/PersonCoding.png';
+import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5, FaSquareGit, FaGithub, FaFigma } from "react-icons/fa6";
+import { DiNodejs } from "react-icons/di";
+import { PiFileSqlLight, PiGitlabLogoFill } from "react-icons/pi";
+import { SiTensorflow, SiNumpy, SiIntellijidea, SiApachemaven } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -34,25 +39,34 @@ const About = () => {
             <img src={headShot} alt="my-headshot" className="img-fluid"/>
           </Col>
         </Row>
-        <Row className="about-me-skills">
+        <Row className="about-me-skills" style={{ textAlign: 'center'}}>
           <h1 style={{ textAlign: 'center' }}>Professional Skillset</h1>
-          <Col>
+          <Col lg={4} className="d-none d-lg-flex justify-content-center align-items-center" style={{ padding: '10px' }}>
+            <img src={personCoding} className="img-fluid align-items-center"/>
+          </Col>
+          <Col xs={12} lg={8}>
+            <p>Languages</p>
             <FaJava className="tech-icons"/>
-          </Col>
-          <Col>
             <FaPython className="tech-icons"/>
-          </Col>
-          <Col>
-            <FaReact className="tech-icons"/>
-          </Col>
-          <Col>
+            <PiFileSqlLight className="tech-icons"/>
             <FaSquareJs className="tech-icons"/>
-          </Col>
-          <Col>
             <FaCss3 className="tech-icons"/>
-          </Col>
-          <Col>
             <FaHtml5 className="tech-icons"/>
+
+            <p>Frameworks and Libraries</p>
+            <FaReact className="tech-icons"/>
+            <DiNodejs className="tech-icons"/>
+            <SiTensorflow className="tech-icons"/>
+            <SiNumpy className="tech-icons" />
+
+            <p>Tools</p>
+            <FaSquareGit className="tech-icons" />
+            <PiGitlabLogoFill className="tech-icons" />
+            <FaGithub className="tech-icons" />
+            <SiIntellijidea className="tech-icons" />
+            <VscVscode className="tech-icons" />
+            <SiApachemaven className="tech-icons" />
+            <FaFigma className="tech-icons" /> 
           </Col>
         </Row>
         <Row className="about-me-interests">
