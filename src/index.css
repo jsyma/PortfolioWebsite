@@ -1,11 +1,13 @@
 :root {
   --primary-font: 'Arvo', serif;
   --secondary-font: 'Lato', sans-serif;
-  --primary-colour: rgb(103, 125, 223);
+  --primary-colour: rgb(168, 181, 238);
   --secondary-colour: rgb(22, 40, 121);
+  --secondary-colour-transparent: rgba(22,40,121, 0.3);
   --work-accent: rgb(31, 11, 3);
   --built-accent: rgb(0, 38, 255);
   --building-accent: rgb(60, 0, 199);
+  --errorcolor: rgb(223, 8, 8);
 }
 
 body {
