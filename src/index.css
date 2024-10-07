@@ -21,7 +21,7 @@ body {
       rgba(255, 255, 255, 0.5) 50%, 
       rgba(20, 15, 35, 0.5) 100%
     ),
-    url('src/assets/CloudBg.jpg');
+    url('./assets/CloudBg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
