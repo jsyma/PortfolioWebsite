@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
@@ -12,6 +12,10 @@ import { SiTensorflow, SiNumpy, SiIntellijidea, SiApachemaven } from "react-icon
 import { VscVscode } from "react-icons/vsc";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div>
       <Navbar />

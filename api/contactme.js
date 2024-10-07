@@ -6,7 +6,6 @@ dotenv.config();
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async function handler(req, res) {
-    console.log("Incoming request:", req.body); 
   if (req.method === 'POST') {
     const { name, email, subject, message } = req.body;
 

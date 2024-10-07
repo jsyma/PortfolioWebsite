@@ -6,6 +6,9 @@ import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
 
   const [currentLine, setCurrentLine] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -61,7 +64,7 @@ const Home = () => {
     <Container className="flex-grow-1 my-3 d-flex flex-column">
       <Row>
         <Col>
-          <h1 className="display-4" style={{ fontWeight: 'bold' }}>
+          <h1 className="display-4 homepage-message" style={{ fontWeight: 'bold' }}>
             <span style={{color: 'var(--secondary-colour)'}}>Hello!</span><br/>I'm&nbsp;&nbsp;
             <span style={{color: 'var(--secondary-colour)'}}>J</span>onathan&nbsp; 
             <span style={{color: 'var(--secondary-colour)'}}>Ma</span>
@@ -119,8 +122,9 @@ const Home = () => {
               username="jsyma"
               blockSize={9}
               blockMargin={3}
-              fontSize={12}
+              fontSize={11}
               transformData={selectLastHalfYear}
+              hideColorLegend={true}
               style={{ color: 'white'}}
               labels={{
                 totalCount: '{{count}} contributions in the last half year',

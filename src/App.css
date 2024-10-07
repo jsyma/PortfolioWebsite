@@ -22,7 +22,19 @@
   gap: 10px;
 }
 
+@media (max-width: 575px) {
+  .navbar-links {
+    padding-top: 15px;
+  }
+}
+
 /* Homepage */
+
+@media (max-width: 468px) {
+  .homepage-message {
+    padding-left: 10px;
+  }
+}
 
 .horizontal-line-top {
   width:0;
@@ -47,6 +59,14 @@
   white-space: nowrap;
   letter-spacing: 0.15em;
   animation: typing 1.5s steps(40, end), step-end forwards;
+}
+
+@media (max-width: 468px) {
+  .typewriter p {
+    letter-spacing: 0px;
+    font-size: 12px;
+    padding: 0px;
+  }
 }
 
 .github-calendar {
@@ -75,6 +95,19 @@
   text-align: center;
   letter-spacing: 2px;
   color: white;
+}
+
+@media (max-width: 468px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 468px) {
+  .footer-text p {
+    font-size: 12px;
+  }
 }
 
 /* Projects Page */

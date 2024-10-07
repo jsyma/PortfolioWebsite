@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import ExperienceData from '../data/Experience.json';
 
 const Experience = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
 
   const renderProjects = (experience) => {
     return (

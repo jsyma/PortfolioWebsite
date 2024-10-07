@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -9,6 +9,9 @@ import LinkedinLogo from '../assets/LinkedinLogo.png';
 import GithubLogo from '../assets/GithubLogo.png';
 
 const ContactMe = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <Container fluid>
         <Row>
-          <Col xs={8} md={6} className="footer-text">
+          <Col xs={10} md={6} className="footer-text">
             <p>Life is short. Smile while you still have teeth.</p>
           </Col>
         </Row>
