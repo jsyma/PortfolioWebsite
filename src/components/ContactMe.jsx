@@ -117,7 +117,7 @@ const ContactMe = () => {
           <Row>
             <p className="find-me-on-message">Find me on 📲</p>
           </Row>
-          <Row className="g-5" style={{ marginTop: '5px', marginBottom: '30%' }}>
+          <Row className="g-4" style={{ marginTop: '5px', marginBottom: '30%' }}>
             <Col xs={4}>
               <a href="https://linkedin.com/in/jsyma" target="_blank" rel="noopener noreferrer">
                 <img src={LinkedinLogo} className="social-icons img-fluid"/>

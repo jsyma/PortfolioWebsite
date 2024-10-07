@@ -17,6 +17,12 @@
   letter-spacing: 1px;
 }
 
+@media (max-width: 575px) {
+  .custom-navbar .navbar-brand {
+    margin-left: 10px;
+  }
+}
+
 .navbar-links {
   margin-left: auto;
   gap: 10px;
@@ -25,6 +31,7 @@
 @media (max-width: 575px) {
   .navbar-links {
     padding-top: 15px;
+    margin-left: 10px;
   }
 }
 
@@ -64,6 +71,14 @@
 @media (max-width: 468px) {
   .typewriter p {
     letter-spacing: 0px;
+    font-size: 14px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 370px) {
+  .typewriter p {
+    letter-spacing: 0px;
     font-size: 12px;
     padding: 0px;
   }
@@ -100,7 +115,7 @@
 @media (max-width: 468px) {
   .footer {
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 }
 
