@@ -1,9 +1,16 @@
 {
     "projects": [
         {
+            "image": "/projects/BudgetTracker.jpg",
+            "title": "Budget Tracker App",
+            "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
+            "stage": "In Development Stage",
+            "builtStatus": false
+        },
+        {
             "image": "/projects/LifesCanvas.jpg", 
             "title": "Lifes Canvas", 
-            "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, Javascript, CSS, Node.js", 
+            "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, JavaScript, CSS, Node.js", 
             "url": "https://lifes-canvas.vercel.app/",
             "builtStatus": true
         },
