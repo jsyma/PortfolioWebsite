@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "image": "/projects/ImageClassificationAI.jpg",
+            "title": "Medical Image Classification",
+            "description": "A project focused on utilizing machine learning techniques to detect the presence and severity of fibrosis in rat kidney images, enabling predicative assessments | Python, TensorFlow, Keras",
+            "stage": "In Development Stage",
+            "builtStatus": false
+        },
+        {
             "image": "/projects/BudgetTracker.jpg",
             "title": "Budget Tracker App",
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
