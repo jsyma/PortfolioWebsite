@@ -4,8 +4,8 @@
             "image": "/projects/BudgetTracker.jpg",
             "title": "Budget Tracker App",
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
-            "stage": "In Development Stage",
-            "builtStatus": false
+            "stage": "https://github.com/jsyma/BudgetTrackerApp",
+            "builtStatus": true
         },
         {
             "image": "/projects/LifesCanvas.jpg", 
@@ -15,18 +15,18 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/Bookstore.jpg", 
-            "title": "Bookstore App", 
-            "description": "A book store application that allows customers to purchase books from a catalog and owners to add/remove books and adjust prices | Java, Java FXML", 
-            "url": "https://github.com/jsyma/BookStoreApp",
-            "builtStatus": true
-        },
-        {
             "image": "/projects/ArcadeLLM.jpg", 
             "title": "LLM Machine Coded Games", 
             "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, with user input collected via a streamlined UI | Java, ...", 
             "stage": "In Development Stage",
             "builtStatus": false
+        },
+        {
+            "image": "/projects/Bookstore.jpg", 
+            "title": "Bookstore App", 
+            "description": "A book store application that allows customers to purchase books from a catalog and owners to add/remove books and adjust prices | Java, Java FXML", 
+            "url": "https://github.com/jsyma/BookStoreApp",
+            "builtStatus": true
         },
         {
             "image": "/projects/OnlineMovieStore.jpg", 
