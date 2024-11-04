@@ -4,7 +4,7 @@
             "image": "/projects/BudgetTracker.jpg",
             "title": "Budget Tracker App",
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
-            "stage": "https://github.com/jsyma/BudgetTrackerApp",
+            "url": "https://github.com/jsyma/BudgetTrackerApp",
             "builtStatus": true
         },
         {
