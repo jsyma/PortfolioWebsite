@@ -8,8 +8,7 @@ import personCoding from '../assets/PersonCoding.png';
 import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5, FaSquareGit, FaGithub, FaFigma } from "react-icons/fa6";
 import { DiNodejs } from "react-icons/di";
 import { PiFileSqlLight, PiGitlabLogoFill } from "react-icons/pi";
-import { SiTensorflow, SiNumpy, SiIntellijidea, SiApachemaven } from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
+import { SiTensorflow, SiNumpy, SiApachemaven, SiDjango, SiPostgresql, SiMysql, SiKeras, SiOpengl } from "react-icons/si";
 
 const About = () => {
   useEffect(() => {
@@ -59,18 +58,21 @@ const About = () => {
 
             <p>Frameworks and Libraries</p>
             <FaReact className="tech-icons"/>
+            <SiDjango className="tech-icons"/>
             <DiNodejs className="tech-icons"/>
             <SiTensorflow className="tech-icons"/>
-            <SiNumpy className="tech-icons" />
+            <SiKeras className="tech-icons"/>
+            <SiNumpy className="tech-icons"/>
+            <SiOpengl className="tech-icons"/>
 
             <p>Tools</p>
-            <FaSquareGit className="tech-icons" />
-            <PiGitlabLogoFill className="tech-icons" />
-            <FaGithub className="tech-icons" />
-            <SiIntellijidea className="tech-icons" />
-            <VscVscode className="tech-icons" />
-            <SiApachemaven className="tech-icons" />
-            <FaFigma className="tech-icons" /> 
+            <FaSquareGit className="tech-icons"/>
+            <PiGitlabLogoFill className="tech-icons"/>
+            <FaGithub className="tech-icons"/>
+            <SiPostgresql className="tech-icons"/>
+            <SiMysql className="tech-icons"/>
+            <SiApachemaven className="tech-icons"/>
+            <FaFigma className="tech-icons"/> 
           </Col>
         </Row>
         <Row className="about-me-interests">
@@ -78,10 +80,9 @@ const About = () => {
           <Col md={4}> 
             <p>When I'm not coding, I like</p>
             <ul>
-              <li>Competing in Soccer ⚽</li>
-              <li>Playing Volleyball 🏐</li>
+              <li>Playing Soccer ⚽</li>
               <li>Swimming 🏊🏼‍♂️</li>
-              <li>Weight Lifting 🏋️‍♂️</li>
+              <li>Playing Volleyball 🏐</li>
               <li>Listening to Music 🎧</li>
               <li>Photography 📷</li>
               <li>Pursuing a Creative Outlet 🎨</li>

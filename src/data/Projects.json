@@ -24,7 +24,7 @@
         {
             "image": "/projects/ArcadeLLM.jpg", 
             "title": "LLM Machine Coded Games", 
-            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, with user input collected via a streamlined UI | Java, ...", 
+            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
             "stage": "In Development Stage",
             "builtStatus": false
         },
