@@ -15,6 +15,13 @@
             "builtStatus": true
         },
         {
+            "image": "/projects/ArcadeLLM.jpg", 
+            "title": "LLM Machine Coded Games", 
+            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
+            "stage": "In Development Stage",
+            "builtStatus": false
+        },
+        {
             "image": "/projects/LifesCanvas.jpg", 
             "title": "Lifes Canvas", 
             "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, JavaScript, CSS, Node.js", 
@@ -22,11 +29,18 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/ArcadeLLM.jpg", 
-            "title": "LLM Machine Coded Games", 
-            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
-            "stage": "In Development Stage",
-            "builtStatus": false
+            "image":"/projects/PongGame.jpg",
+            "title": "Pong Game",
+            "description": "Developed a Ping Pong-style game, controlled by switches on a board, with dynamic signal generation and output displayed on a VGA monitor | VHDL",
+            "url": "https://github.com/jsyma/PongGame",
+            "builtStatus": true
+        },
+        {
+            "image":"/projects/P2P.jpg",
+            "title": "Peer-To-Peer Network",
+            "description": "A P2P Network where peers can register content, exchange content among themselves and de-register content through the support of an index server | C",
+            "url": "https://github.com/jsyma/Peer-to-Peer-Network",
+            "builtStatus": true
         },
         {
             "image": "/projects/Bookstore.jpg", 
