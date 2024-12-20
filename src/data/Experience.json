@@ -4,11 +4,26 @@
             "image": "/experience/ECCC.jpg", 
             "role": "Software Developer Intern", 
             "company": "Environment and Climate Change Canada", 
-            "date": "May 2023 - August 2024 | Toronto, ON",
+            "date": "Jan 2024 - August 2024 | Toronto, ON",
+            "team": "Data Management Systems Team",
             "description": [
-                "Collaborated with the Data Management System team in the development and maintenance of over 40 internal weather data components using Java",
-                "Designed, developed and tested a new JSON file handler configuration to translate complex meteorological data into an accessible format",
-                "Led the development of two new decoders during the migration to the OMNES framework"
+                "Implemented 40+ new features in Java and developed 30+ JUnit tests for mission-critical projects",
+                "Designed and developed a new component that used a customizable JSON file handler to translate raw meteorological data into XML format",
+                "Managed the storage of 20+ system taxonomies using SQL queries",
+                "Participated in 100+ code reviews that ensured system scalability, quality and maintainability"
+            ] 
+        },
+        {
+            "image": "/experience/ECCC.jpg", 
+            "role": "Quality Assurance Intern", 
+            "company": "Environment and Climate Change Canada", 
+            "date": "May 2023 - December 2023 | Toronto, ON",
+            "team": "Testing and Deployment Team",
+            "description": [
+                "Performed maintenance and validation checks on over 40 components using Grafana, Graylog, and Jenkins",
+                "Contributed to the development of Enchiridion, an application leveraging API integrations to automate validation tasks and workflows",
+                "Collaborated with DevOps to integrate continuous quality monitoring into the CI/CD pipeline",
+                "Validated and analyzed regression test results to ensure functionality and identify potential issues after updates"
             ] 
         },
         {

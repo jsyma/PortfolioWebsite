@@ -22,6 +22,11 @@ const Experience = () => {
                 <h1>{experienceItem.role}</h1>
                 <p style={{ fontSize: '16px' }}>{experienceItem.company}</p>
                 <p style={{ fontSize: '15px', fontStyle: 'italic', paddingBottom: '15px' }}>{experienceItem.date}</p>
+                {experienceItem.team && (
+                  <p style={{ fontSize: '17px', fontFamily: 'var(--primary-font)', textAlign: 'left', paddingLeft: '20px' }}>
+                    {experienceItem.team}
+                  </p>
+                )}                
                 <ul>
                   {experienceItem.description.map((descriptionItem, index) => (
                     <li key={index}>{descriptionItem}</li>
