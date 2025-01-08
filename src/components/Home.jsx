@@ -22,20 +22,14 @@ const Home = () => {
     { text: "learning about everything related to software.", duration: 500 }
   ];
 
-  const selectLastHalfYear = contributions => {
-    const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
-    const shownMonths = 6;
+  const selectLastHalfYear = (contributions) => {
+    const now = new Date();
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(now.getMonth() - 6);
   
-    return contributions.filter(activity => {
-      const date = new Date(activity.date);
-      const monthOfDay = date.getMonth();
-  
-      return (
-        date.getFullYear() === currentYear &&
-        monthOfDay > currentMonth - shownMonths &&
-        monthOfDay <= currentMonth
-      );
+    return contributions.filter((activity) => {
+      const activityDate = new Date(activity.date);
+      return activityDate >= sixMonthsAgo && activityDate <= now;
     });
   };
  
