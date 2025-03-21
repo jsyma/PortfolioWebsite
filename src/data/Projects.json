@@ -1,11 +1,25 @@
 {
     "projects": [
         {
-            "image": "/projects/ImageClassificationAI.jpg",
-            "title": "Medical Image Classification",
-            "description": "A project focused on utilizing machine learning techniques to detect the presence and severity of fibrosis in rat kidney images, enabling predicative assessments | Python, TensorFlow, Keras",
+            "image": "/projects/ArcadeLLM.jpg", 
+            "title": "GameCraft", 
+            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
             "stage": "In Development Stage",
             "builtStatus": false
+        },
+        {
+            "image": "/projects/RoverSimulation.jpg",
+            "title": "Rover Mine Exploration Simulator",
+            "description": "A project focused on simulating various rover-server communication methods, featuring random map generation, mine disarming and rover explosions | Python, gRPC, Docker, RabbitMQ, FastAPI, JavaScript",
+            "stage": "In Development Stage",
+            "builtStatus": false
+        },
+        {
+            "image": "/projects/ImageClassificationAI.jpg",
+            "title": "Kidney Fibrosis Image Classifier",
+            "description": "Collaborated on a project focused on utilizing machine learning techniques to detect the presence and severity of fibrosis in rat kidney images, enabling predicative assessments | Python, TensorFlow, Keras",
+            "url": "https://github.com/jsyma/Kidney-Fibrosis-Image-Classifier",
+            "builtStatus": true
         },
         {
             "image": "/projects/BudgetTracker.jpg",
@@ -13,13 +27,6 @@
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
             "url": "https://github.com/jsyma/BudgetTrackerApp",
             "builtStatus": true
-        },
-        {
-            "image": "/projects/ArcadeLLM.jpg", 
-            "title": "LLM Machine Coded Games", 
-            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
-            "stage": "In Development Stage",
-            "builtStatus": false
         },
         {
             "image": "/projects/LifesCanvas.jpg", 

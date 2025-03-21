@@ -5,7 +5,7 @@ import Footer from './Footer.jsx';
 import headShot from '../assets/Jma.jpg';
 import worldMap from '../assets/WorldMap.png';
 import personCoding from '../assets/PersonCoding.png';
-import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5, FaSquareGit, FaGithub, FaFigma } from "react-icons/fa6";
+import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5, FaSquareGit, FaGithub, FaFigma, FaDocker } from "react-icons/fa6";
 import { DiNodejs } from "react-icons/di";
 import { PiFileSqlLight, PiGitlabLogoFill } from "react-icons/pi";
 import { SiTensorflow, SiNumpy, SiApachemaven, SiDjango, SiPostgresql, SiMysql, SiKeras, SiOpengl } from "react-icons/si";
@@ -72,6 +72,7 @@ const About = () => {
             <SiPostgresql className="tech-icons"/>
             <SiMysql className="tech-icons"/>
             <SiApachemaven className="tech-icons"/>
+            <FaDocker className="tech-icons" />
             <FaFigma className="tech-icons"/> 
           </Col>
         </Row>
