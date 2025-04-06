@@ -185,7 +185,37 @@
 }
 
 .view-button:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
+}
+
+.learn-more-button {
+  margin-bottom: 20px;
+  color: white;
+  background-color: var(--secondary-built-accent);
+  font-family: var(--secondary-font);
+  border-radius: 15px;
+  border: none;
+  padding: 5px 20px;
+  transition: transform 0.3s ease;
+}
+
+.learn-more-button:hover {
+  transform: scale(1.07);
+}
+
+.github-button {
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgb(110, 84, 148);
+  font-family: var(--secondary-font);
+  border-radius: 15px;
+  border: none;
+  padding: 5px 20px;
+  transition: transform 0.3s ease;
+}
+
+.github-button:hover {
+  transform: scale(1.07);
 }
 
 /* Experience Page */

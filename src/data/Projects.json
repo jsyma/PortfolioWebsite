@@ -3,71 +3,100 @@
         {
             "image": "/projects/ArcadeLLM.jpg", 
             "title": "GameCraft", 
-            "description": "Develop an AI-powered LLM-based system capable of designing and building simple arcade-style games, where user input is collected through prompt engineering and a streamlined UI | Java, OpenGL, React, Python, Google Gemini", 
-            "stage": "In Development Stage",
-            "builtStatus": false
+            "description": "Developed an AI-powered LLM-based system capable of designing and building simple arcade-style games based on user inputs through an interactive GUI | Java, OpenGL, React, Node.js, Python, Google Gemini", 
+            "github": null,
+            "url": null,
+            "learnMoreImage": "/projects/GameCraftPoster.png",
+            "builtStatus": true
         },
         {
             "image": "/projects/RoverSimulation.jpg",
             "title": "Rover Mine Exploration Simulator",
-            "description": "A project focused on simulating various rover-server communication methods, featuring random map generation, mine disarming and rover explosions | Python, gRPC, Docker, RabbitMQ, FastAPI, JavaScript",
-            "stage": "In Development Stage",
-            "builtStatus": false
+            "description": "A project focused on simulating various rover-server communication methods, featuring random map generation, mine disarming and rover explosions | Python, gRPC, Docker, RabbitMQ, FastAPI, JavaScript, Azure",
+            "github":"https://github.com/jsyma/Mine-Detector-Robots",
+            "url": "https://rovermineexplorationsimulator.azurewebsites.net/",
+            "learnMoreImage": null,
+            "builtStatus": true
         },
         {
             "image": "/projects/ImageClassificationAI.jpg",
             "title": "Kidney Fibrosis Image Classifier",
             "description": "Collaborated on a project focused on utilizing machine learning techniques to detect the presence and severity of fibrosis in rat kidney images, enabling predicative assessments | Python, TensorFlow, Keras",
-            "url": "https://github.com/jsyma/Kidney-Fibrosis-Image-Classifier",
+            "github": "https://github.com/jsyma/Kidney-Fibrosis-Image-Classifier",
+            "url": null,
+            "learnMoreImage":"/projects/ImageClassificationReport.pdf",
+            "builtStatus": true
+        },
+        {
+            "image": "/projects/SecureBankingSystem.jpg",
+            "title": "Secure Banking System",
+            "description": "Built a secure client-server banking system supporting basic banking transactions, with encrypted communication, audit logging and an ATM interface | Python, tkinter",
+            "github": "https://github.com/jsyma/Secure-Banking-System",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image": "/projects/BudgetTracker.jpg",
             "title": "Budget Tracker App",
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
-            "url": "https://github.com/jsyma/BudgetTrackerApp",
+            "github": "https://github.com/jsyma/BudgetTrackerApp",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image": "/projects/LifesCanvas.jpg", 
             "title": "Lifes Canvas", 
             "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, JavaScript, CSS, Node.js", 
+            "github": "https://github.com/jsyma/lifes-canvas",
             "url": "https://lifes-canvas.vercel.app/",
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image":"/projects/PongGame.jpg",
             "title": "Pong Game",
             "description": "Developed a Ping Pong-style game, controlled by switches on a board, with dynamic signal generation and output displayed on a VGA monitor | VHDL",
-            "url": "https://github.com/jsyma/PongGame",
+            "github": "https://github.com/jsyma/PongGame",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image":"/projects/P2P.jpg",
             "title": "Peer-To-Peer Network",
             "description": "A P2P Network where peers can register content, exchange content among themselves and de-register content through the support of an index server | C",
-            "url": "https://github.com/jsyma/Peer-to-Peer-Network",
+            "github": "https://github.com/jsyma/Peer-to-Peer-Network",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image": "/projects/Bookstore.jpg", 
             "title": "Bookstore App", 
             "description": "A book store application that allows customers to purchase books from a catalog and owners to add/remove books and adjust prices | Java, Java FXML", 
-            "url": "https://github.com/jsyma/BookStoreApp",
+            "github": "https://github.com/jsyma/BookStoreApp",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image": "/projects/OnlineMovieStore.jpg", 
             "title": "Online Movie Store", 
             "description": "Designed and Developed a Online Movie Database System with a GUI where users can buy, view, sort and review movies | Python, SQL, Bash", 
-            "url": "https://github.com/jsyma/OnlineMovieStore-DBMS",
+            "github": "https://github.com/jsyma/OnlineMovieStore-DBMS",
+            "url": null,
+            "learnMoreImage": null,
             "builtStatus": true
         },
         {
             "image": "/projects/ArtWebsite.jpg", 
             "title": "Art Showcasing Website", 
             "description": "Developed a personal art portfolio website showcasing my passion for photography, art and design | React, Javascript, CSS, Node.js, React-MDL", 
+            "github": "https://github.com/jsyma/art",
             "url": "https://jsyma.github.io/art/",
+            "learnMoreImage": null,
             "builtStatus": true
         }
     ]
