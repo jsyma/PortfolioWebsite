@@ -173,7 +173,8 @@
   padding: 10px;
 }
 
-.view-button {
+.view-button,
+.view-demo-button {
   margin-bottom: 20px;
   color: white;
   background-color: var(--built-accent);
@@ -184,7 +185,8 @@
   transition: transform 0.3s ease;
 }
 
-.view-button:hover {
+.view-button:hover,
+.view-demo-button:hover {
   transform: scale(1.07);
 }
 

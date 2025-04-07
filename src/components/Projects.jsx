@@ -6,9 +6,10 @@ import ProjectData from '../data/Projects.json';
 
 const Projects = () => {
 
-  
   const [showModal, setShowModal] = useState(false);
   const [modalImage, setModalImage] = useState(null);
+  const [showDemoModal, setShowDemoModal] = useState(false);
+  const [demoVideo, setDemoVideo] = useState(null);
 
   const handleOpenModal = (imgUrl) => {
     setModalImage(imgUrl);
@@ -18,6 +19,16 @@ const Projects = () => {
   const handleCloseModal = () => {
     setShowModal(false);
     setModalImage(null);
+  };
+
+  const handleOpenDemoModal = (videoUrl) => {
+    setDemoVideo(videoUrl);
+    setShowDemoModal(true);
+  };
+  
+  const handleCloseDemoModal = () => {
+    setShowDemoModal(false);
+    setDemoVideo(null);
   };
 
   useEffect(() => {
@@ -43,13 +54,16 @@ const Projects = () => {
                         </span>
                       )}
                     </p>                   
-                    {projectItem.url || projectItem.learnMoreImage || projectItem.github ? (
+                    {projectItem.url || projectItem.learnMoreImage || projectItem.github || projectItem.demoVideo ? (
                       <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginTop: '10px' }}>
                         {projectItem.github && (
                           <button className="github-button" onClick={() => window.open(projectItem.github)}>Github</button>
                         )}
                         {projectItem.url && (
                           <button className="view-button" onClick={() => window.open(projectItem.url)}>View</button>
+                        )}
+                        {projectItem.demoVideo && (
+                          <button className="view-demo-button" onClick={() => handleOpenDemoModal(projectItem.demoVideo)}>Watch Demo</button>
                         )}
                         {projectItem.learnMoreImage && (
                           <button className="learn-more-button" onClick={() => handleOpenModal(projectItem.learnMoreImage)}>Learn More</button>
@@ -95,6 +109,27 @@ const Projects = () => {
               />
             ) : (
               <img src={modalImage} alt="learn-more-image" style={{ width: '100%', height: 'auto' }} />
+            )}
+          </Modal.Body>
+        </Modal>
+        <Modal show={showDemoModal} onHide={handleCloseDemoModal} centered size="lg">
+          <Modal.Body style={{ padding: 0 }}>
+            {demoVideo && demoVideo.includes('youtube.com') ? (
+               <iframe
+               src={demoVideo}
+               width="100%"
+               height="480"
+               allow="autoplay"
+               allowFullScreen
+               style={{ border: '3px solid #5bfe44', display: 'block' }}
+             />
+            ) : (
+              <video
+                src={demoVideo}
+                controls
+                autoPlay
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
             )}
           </Modal.Body>
         </Modal>

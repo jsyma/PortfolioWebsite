@@ -6,6 +6,7 @@
             "description": "Developed an AI-powered LLM-based system capable of designing and building simple arcade-style games based on user inputs through an interactive GUI | Java, OpenGL, React, Node.js, Python, Google Gemini", 
             "github": null,
             "url": null,
+            "demoVideo": "https://www.youtube.com/embed/mTnirMDsEJk",
             "learnMoreImage": "/projects/GameCraftPoster.png",
             "builtStatus": true
         },
