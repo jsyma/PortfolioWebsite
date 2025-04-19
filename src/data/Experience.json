@@ -8,22 +8,22 @@
             "team": "Data Management Systems Team",
             "description": [
                 "Implemented 40+ new features in Java and developed 30+ JUnit tests for mission-critical projects",
-                "Designed and developed a new component that used a customizable JSON file handler to translate raw meteorological data into XML format",
-                "Managed the storage of 20+ system taxonomies using SQL queries",
-                "Participated in 100+ code reviews that ensured system scalability, quality and maintainability"
+                "Designed and developed a configurable Java-based JSON-to-XML transformer for meteorological data, integrating with new and existing decoder components",
+                "Optimized our internal notification system’s ability to retrieve clusters and payloads and enhanced sorting and parameter handling for time-based notifications",
+                "Managed the storage of 20+ system taxonomies using SQL queries"            
             ] 
         },
         {
             "image": "/experience/ECCC.jpg", 
-            "role": "Quality Assurance Intern", 
+            "role": "Software Developer Intern", 
             "company": "Environment and Climate Change Canada", 
             "date": "May 2023 - December 2023 | Toronto, ON",
             "team": "Testing and Deployment Team",
             "description": [
-                "Performed maintenance and validation checks on over 40 components using Grafana, Graylog, and Jenkins",
-                "Contributed to the development of Enchiridion, an application leveraging API integrations to automate validation tasks and workflows",
-                "Collaborated with DevOps to integrate continuous quality monitoring into the CI/CD pipeline",
-                "Validated and analyzed regression test results to ensure functionality and identify potential issues after updates"
+                "Assisted in developing Enchiridion, an application leveraging API integrations to automate validation tasks, streamline testing workflows, and reduce manual testing efforts",
+                "Performed maintenance and validation checks on over 40 components using Grafana and Graylog",
+                "Monitored and validated continuous quality checks in Jenkins pipelines to enforce code and testing standards",
+                "Analyzerd regression test outputs across staging, development and operational clusters using internal tools to identify and address discrepancies and confirm stability across deployments"
             ] 
         },
         {
@@ -31,10 +31,10 @@
             "role": "Computer Programmer", 
             "company": "Toronto Metropolitan University",
             "date": "October 2022 - April 2023 | Toronto, ON",
+            "team": "Smart Building Research Group",
             "description": [
-                "Contributed to software development in support of Professor McArthur's Smart Building Research Group activities",
-                "Developed a Python framework for generating synthetic time-series data",
-                "Implemented functionalities for linear relationships, random noise, and cyclic patterns, utilizing configuration files to customize data parameters for enhanced simulation and testing"
+                "Enhanced research productivity by contributing to the development of software tools for Building Information Modeling, streamlining data analysis and integration processes",
+                "Developed a Python application to generate synthetic time-series data simulating realistic datasets for testing predictive models and algorithms, with flexible configuration files to support diverse research scenarios"
             ]         
         },
         {
