@@ -14,7 +14,7 @@ const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const lines = [
-    { text: "I'm a 5th year software engineering student", duration: 1000 },
+    { text: "I'm a recent software engineering graduate", duration: 1000 },
     { text: "seeking new graduate opportunities.", duration: 500 },
     { text: " ", duration: 0 },
     { text: "I am passionate about crafting innovative", duration: 500 },

@@ -34,8 +34,8 @@ const About = () => {
             </p>
             <p>
               This realization inspired me to make a significant career shift into software engineering. 
-              Now, as I near the completion of my fifth year at <strong style={{ color: 'rgb(0, 76, 165)' }}>Toronto Metropolitan University</strong>, 
-              I am eager to blend my scientific background with my growing expertise in software development.
+              Now, having recently graduated from <strong style={{ color: 'rgb(0, 76, 165)' }}>Toronto Metropolitan University</strong>, 
+              I am eager to blend my scientific background with my growing expertise in software engineering.
             </p>
           </Col>
           <Col md={4} className="order-1 order-md-2 d-flex justify-content-center align-items-center">
