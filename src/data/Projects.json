@@ -11,6 +11,13 @@
             "builtStatus": true
         },
         {
+            "image": "/projects/StarWardle.jpg",
+            "title": "StarWardle",
+            "description": "Building a full-stack daily Star Wars character guessing game, featuring real-time attribute-based feedback, dynamic backend APIs and an interactive Star Wars-themed UI | MongoDB, Express, React, Node.js",
+            "stage": "In Development",
+            "builtStatus": false
+        },
+        {
             "image": "/projects/RoverSimulation.jpg",
             "title": "Rover Mine Exploration Simulator",
             "description": "A project focused on simulating various rover-server communication methods, featuring random map generation, mine disarming and rover explosions | Python, gRPC, Docker, RabbitMQ, FastAPI, JavaScript, Azure",
