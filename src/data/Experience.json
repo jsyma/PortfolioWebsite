@@ -7,8 +7,8 @@
             "date": "Jan 2024 - August 2024 | Toronto, ON",
             "team": "Data Management Systems Team",
             "description": [
-                "Implemented 40+ new features in Java and developed 30+ JUnit tests for mission-critical projects",
-                "Designed and developed a configurable Java-based JSON-to-XML transformer for meteorological data, integrating with new and existing decoder components",
+                "Shipped 40+ backend features in Java and developed 30+ JUnit test suites for mission-critical projects",
+                "Designed and developed a Java-based JSON-to-XML transformer integrated into new and existing components, decoding and processing weather data from hundreds of reporting stations",
                 "Optimized our internal notification system’s ability to retrieve clusters and payloads and enhanced sorting and parameter handling for time-based notifications",
                 "Managed the storage of 20+ system taxonomies using SQL queries"            
             ] 
@@ -20,21 +20,21 @@
             "date": "May 2023 - December 2023 | Toronto, ON",
             "team": "Testing and Deployment Team",
             "description": [
-                "Assisted in developing Enchiridion, an application leveraging API integrations to automate validation tasks, streamline testing workflows, and reduce manual testing efforts",
+                "Assisted in developing Enchiridion, an application leveraging API integrations to automate validation tasks, streamline testing workflows, and reduce manual validation efforts",
                 "Performed maintenance and validation checks on over 40 components using Grafana and Graylog",
-                "Monitored and validated continuous quality checks in Jenkins pipelines to enforce code and testing standards",
-                "Analyzerd regression test outputs across staging, development and operational clusters using internal tools to identify and address discrepancies and confirm stability across deployments"
+                "Monitored and validated continuous quality checks in Jenkins pipelines to uphold code and testing standards",
+                "Analyzed regression test outputs across staging, development and operational clusters using internal tools to identify and address discrepancies and confirm stability across deployments"
             ] 
         },
         {
             "image": "/experience/TMU.jpg", 
             "role": "Computer Programmer", 
-            "company": "Toronto Metropolitan University",
+            "company": "Toronto Metropolitan University (Faculty of Engineering and Architectural Science)",
             "date": "October 2022 - April 2023 | Toronto, ON",
             "team": "Smart Building Research Group",
             "description": [
                 "Enhanced research productivity by contributing to the development of software tools for Building Information Modeling, streamlining data analysis and integration processes",
-                "Developed a Python application to generate synthetic time-series data simulating realistic datasets for testing predictive models and algorithms, with flexible configuration files to support diverse research scenarios"
+                "Designed and developed a Python application generating configurable synthetic time-series data, enabling realistic simulations for testing predictive models and machine learning algorithms"
             ]         
         },
         {
