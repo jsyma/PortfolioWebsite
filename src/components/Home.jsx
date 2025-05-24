@@ -19,7 +19,9 @@ const Home = () => {
     { text: " ", duration: 0 },
     { text: "I am passionate about crafting innovative", duration: 500 },
     { text: "solutions to real-world problems and I love", duration: 500 },
-    { text: "learning about everything related to software.", duration: 500 }
+    { text: "learning about everything related to software.", duration: 500 },
+    { text: " ", duration: 0 },
+    { text: "Currently building StarWardle", duration: 300 }
   ];
 
   const selectLastHalfYear = (contributions) => {
@@ -72,7 +74,18 @@ const Home = () => {
       </Row>
       {lines.slice(0, currentLine + 1).map((line, index) => (
         <Row key={index} className="typewriter" style={{paddingLeft: "30px"}}>
-          <p>{line.text}</p>
+          <p>
+            {line.text.includes("StarWardle") ? (
+              <>
+                {line.text.split("StarWardle")[0]}
+                <a href="https://starwardle.com" target="_blank" rel="noopener noreferrer" className="home-building-project-link">
+                  StarWardle 🡄
+                </a>
+              </>
+            ) : (
+              line.text
+            )}
+          </p>
         </Row>
       ))}
       <Row>

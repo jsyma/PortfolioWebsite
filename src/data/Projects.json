@@ -15,7 +15,7 @@
             "title": "StarWardle",
             "description": "Building a full-stack daily Star Wars character guessing game, featuring real-time attribute-based feedback, dynamic backend APIs and an interactive Star Wars-themed UI | MongoDB, Express, React, Node.js",
             "stage": "In Development",
-            "builtStatus": false
+            "url": "https://starwardle.com"
         },
         {
             "image": "/projects/RoverSimulation.jpg",

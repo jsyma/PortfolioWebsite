@@ -8,6 +8,7 @@ import personCoding from '../assets/PersonCoding.png';
 import { FaJava, FaPython, FaReact, FaSquareJs, FaCss3, FaHtml5, FaSquareGit, FaGithub, FaFigma, FaDocker } from "react-icons/fa6";
 import { DiNodejs } from "react-icons/di";
 import { PiFileSqlLight, PiGitlabLogoFill } from "react-icons/pi";
+import { BiLogoMongodb } from "react-icons/bi";
 import { SiTensorflow, SiNumpy, SiApachemaven, SiDjango, SiPostgresql, SiMysql, SiKeras, SiOpengl } from "react-icons/si";
 
 const About = () => {
@@ -58,8 +59,8 @@ const About = () => {
 
             <p>Frameworks and Libraries</p>
             <FaReact className="tech-icons"/>
-            <SiDjango className="tech-icons"/>
             <DiNodejs className="tech-icons"/>
+            <SiDjango className="tech-icons"/>
             <SiTensorflow className="tech-icons"/>
             <SiKeras className="tech-icons"/>
             <SiNumpy className="tech-icons"/>
@@ -70,6 +71,7 @@ const About = () => {
             <PiGitlabLogoFill className="tech-icons"/>
             <FaGithub className="tech-icons"/>
             <SiPostgresql className="tech-icons"/>
+            <BiLogoMongodb className="tech-icons"/>
             <SiMysql className="tech-icons"/>
             <SiApachemaven className="tech-icons"/>
             <FaDocker className="tech-icons" />
