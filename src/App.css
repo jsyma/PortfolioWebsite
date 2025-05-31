@@ -97,17 +97,21 @@
 
 .home-building-project-link {
   color: #FFE81F;
+  background-color: black;
+  border-radius: 60px;
+  padding: 5px 10px 5px 10px;
   font-weight: bold;
   position: relative;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 .home-building-project-link::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 100%;
+  left: 5px;
+  bottom: 1px;
+  width: 95%;
   height: 5px;
   background: #FFE81F;
   transform: scaleX(0);

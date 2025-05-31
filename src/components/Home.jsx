@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import GitHubCalendar from "react-github-calendar";
 import Person from '../assets/HomePageGuy.png';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
+import { Analytics } from "@vercel/analytics/react"
 
 const Home = () => {
   useEffect(() => {
@@ -151,6 +152,7 @@ const Home = () => {
       </Row>
     </Container>
     <Footer />
+    <Analytics />
     </div>
   )
 }
