@@ -1,24 +1,24 @@
 {
     "projects": [
         {
-            "image": "/projects/ArcadeLLM.jpg", 
+            "image": "/projects/ArcadeLLM.webp", 
             "title": "GameCraft", 
             "description": "Developed an AI-powered LLM-based system capable of designing and building simple arcade-style games based on user inputs through an interactive GUI | Java, OpenGL, React, Node.js, Python, Google Gemini", 
             "github": null,
             "url": null,
             "demoVideo": "https://www.youtube.com/embed/mTnirMDsEJk",
-            "learnMoreImage": "/projects/GameCraftPoster.png",
+            "learnMoreImage": "/projects/GameCraftPoster.webp",
             "builtStatus": true
         },
         {
-            "image": "/projects/StarWardle.jpg",
+            "image": "/projects/StarWardle.webp",
             "title": "StarWardle",
             "description": "Building a full-stack daily Star Wars character guessing game, featuring real-time attribute-based feedback, dynamic backend APIs and an interactive Star Wars-themed UI | MongoDB, Express, React, Node.js",
             "stage": "In Development",
             "url": "https://starwardle.com"
         },
         {
-            "image": "/projects/RoverSimulation.jpg",
+            "image": "/projects/RoverSimulation.webp",
             "title": "Rover Mine Exploration Simulator",
             "description": "A project focused on simulating various rover-server communication methods, featuring random map generation, mine disarming and rover explosions | Python, gRPC, Docker, RabbitMQ, FastAPI, JavaScript, Azure",
             "github":"https://github.com/jsyma/Mine-Detector-Robots",
@@ -27,7 +27,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/ImageClassificationAI.jpg",
+            "image": "/projects/ImageClassificationAI.webp",
             "title": "Kidney Fibrosis Image Classifier",
             "description": "Collaborated on a project focused on utilizing machine learning techniques to detect the presence and severity of fibrosis in rat kidney images, enabling predicative assessments | Python, TensorFlow, Keras",
             "github": "https://github.com/jsyma/Kidney-Fibrosis-Image-Classifier",
@@ -36,7 +36,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/SecureBankingSystem.jpg",
+            "image": "/projects/SecureBankingSystem.webp",
             "title": "Secure Banking System",
             "description": "Built a secure client-server banking system supporting basic banking transactions, with encrypted communication, audit logging and an ATM interface | Python, tkinter",
             "github": "https://github.com/jsyma/Secure-Banking-System",
@@ -45,7 +45,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/BudgetTracker.jpg",
+            "image": "/projects/BudgetTracker.webp",
             "title": "Budget Tracker App",
             "description": "A budget tracker application that enables users to add, view, and manage their expenses while categorizing them for better financial insights | Django, React, JavaScript",
             "github": "https://github.com/jsyma/BudgetTrackerApp",
@@ -54,16 +54,16 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/LifesCanvas.jpg", 
+            "image": "/projects/LC.webp", 
             "title": "Lifes Canvas", 
-            "description": "Designed and developed a responsive front-end interface, ensuring a seamless experience across both desktop and mobile devices | React, JavaScript, CSS, Node.js", 
+            "description": "Designed and developed a responsive website for Life's Canvas to showcase products and offerings | React, JavaScript, CSS, Node.js", 
             "github": "https://github.com/jsyma/lifes-canvas",
             "url": "https://lifes-canvas.vercel.app/",
             "learnMoreImage": null,
             "builtStatus": true
         },
         {
-            "image":"/projects/PongGame.jpg",
+            "image":"/projects/PongGame.webp",
             "title": "Pong Game",
             "description": "Developed a Ping Pong-style game, controlled by switches on a board, with dynamic signal generation and output displayed on a VGA monitor | VHDL",
             "github": "https://github.com/jsyma/PongGame",
@@ -72,7 +72,7 @@
             "builtStatus": true
         },
         {
-            "image":"/projects/P2P.jpg",
+            "image":"/projects/P2P.webp",
             "title": "Peer-To-Peer Network",
             "description": "A P2P Network where peers can register content, exchange content among themselves and de-register content through the support of an index server | C",
             "github": "https://github.com/jsyma/Peer-to-Peer-Network",
@@ -81,7 +81,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/Bookstore.jpg", 
+            "image": "/projects/Bookstore.webp", 
             "title": "Bookstore App", 
             "description": "A book store application that allows customers to purchase books from a catalog and owners to add/remove books and adjust prices | Java, Java FXML", 
             "github": "https://github.com/jsyma/BookStoreApp",
@@ -90,7 +90,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/OnlineMovieStore.jpg", 
+            "image": "/projects/OnlineMovieStore.webp", 
             "title": "Online Movie Store", 
             "description": "Designed and Developed a Online Movie Database System with a GUI where users can buy, view, sort and review movies | Python, SQL, Bash", 
             "github": "https://github.com/jsyma/OnlineMovieStore-DBMS",
@@ -99,7 +99,7 @@
             "builtStatus": true
         },
         {
-            "image": "/projects/ArtWebsite.jpg", 
+            "image": "/projects/ArtWebsite.webp", 
             "title": "Art Showcasing Website", 
             "description": "Developed a personal art portfolio website showcasing my passion for photography, art and design | React, Javascript, CSS, Node.js, React-MDL", 
             "github": "https://github.com/jsyma/art",

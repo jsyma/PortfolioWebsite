@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import GitHubCalendar from "react-github-calendar";
-import Person from '../assets/HomePageGuy.png';
+import Person from '../../public/HomePageGuy.png';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import { Analytics } from "@vercel/analytics/react"

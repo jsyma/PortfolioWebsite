@@ -4,9 +4,9 @@ import Footer from './Footer.jsx';
 import { Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import InstagramLogo from '../assets/InstagramLogo.png';
-import LinkedinLogo from '../assets/LinkedinLogo.png';
-import GithubLogo from '../assets/GithubLogo.png';
+import InstagramLogo from '../assets/InstagramLogo.webp';
+import LinkedinLogo from '../assets/LinkedinLogo.webp';
+import GithubLogo from '../assets/GithubLogo.webp';
 
 const ContactMe = () => {
   useEffect(() => {

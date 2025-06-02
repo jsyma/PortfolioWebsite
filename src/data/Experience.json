@@ -1,7 +1,7 @@
 {
     "experience": [
         {
-            "image": "/experience/ECCC.jpg", 
+            "image": "/experience/ECCC.webp", 
             "role": "Software Developer Intern", 
             "company": "Environment and Climate Change Canada", 
             "date": "Jan 2024 - August 2024 | Toronto, ON",
@@ -14,7 +14,7 @@
             ] 
         },
         {
-            "image": "/experience/ECCC.jpg", 
+            "image": "/experience/ECCC.webp", 
             "role": "Software Developer Intern", 
             "company": "Environment and Climate Change Canada", 
             "date": "May 2023 - December 2023 | Toronto, ON",
@@ -27,7 +27,7 @@
             ] 
         },
         {
-            "image": "/experience/TMU.jpg", 
+            "image": "/experience/TMU.webp", 
             "role": "Computer Programmer", 
             "company": "Toronto Metropolitan University (Faculty of Engineering and Architectural Science)",
             "date": "October 2022 - April 2023 | Toronto, ON",
@@ -38,7 +38,7 @@
             ]         
         },
         {
-            "image": "/experience/Snapsmile.jpg", 
+            "image": "/experience/Snapsmile.webp", 
             "role": "Product Design Intern", 
             "company": "Snapsmile",
             "date": "June 2022 - August 2022 | Toronto, ON",
@@ -49,7 +49,7 @@
             ]         
         },
         {
-            "image": "/experience/TD.jpg", 
+            "image": "/experience/TD.webp", 
             "role": "Customer Experience Associate", 
             "company": "TD Bank",
             "date": "November 2020 - September 2022 | Markham, ON",
